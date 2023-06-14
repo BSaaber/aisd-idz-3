@@ -1,6 +1,7 @@
 #include <vector>
 #include <algorithm>
 
+// based on https://e-maxx.ru/algo/ford_bellman
 
 void ford_bellman(int n, int m, const std::vector<std::pair<std::pair<int,int>,int>>& edges_input) {
     std::vector<int> d (n, INF);

@@ -25,8 +25,8 @@ std::pair<std::pair<int, int>, int> splitstr(std::string& str, const std::string
 }
 
 int main() {
-    // i dont give a fuck about this not working on anothers computer
-    // i fucking hate this university
+    // mac does not support relative import, and i am doing my hw on a mac
+    // I do not see any reasons to spend my time on figuring out how to make relative imports compatible with mac
     std::string path_prefix = "/Users/maxim-movshin/CLionProjects/graph_algorithms/build_test_data/input__";
     std::string result_prefix = "/Users/maxim-movshin/CLionProjects/graph_algorithms/results/";
     for (int i = 10; i < 1010 + 1; i += 50) {
